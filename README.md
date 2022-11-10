@@ -58,6 +58,16 @@ People with dyscalculia have trouble doing calculations and recalling math facts
 If they must enter a number, let them paste it in or give them a recognisable format to help enter the number. 
 
 ## Credits
-The dyscalculia poster was designed by [Jayne McFayden](https://twitter.com/mcfadyen_jane) and [Laura Parker](https://twitter.com/LauraParkerUX).
+This poster was designed and created by:
+- [Jayne McFayden](https://twitter.com/mcfadyen_jane)
+- [Laura Parker](https://twitter.com/LauraParkerUX)
+- [Rachel Malic](https://twitter.com/GirlCalledMalic)
+      
+Thank you to:
+- Ollie Sweetman and the Civil Service Dyslexia and Dyspraxia Network
+- [Dyscalcula Network](https://www.dyscalculianetwork.com) for consulting on the poster
+[National Numeracy](https://www.nationalnumeracy.org.uk) for reviewing the poster
+- [Plain Numbers](https://www.plainnumbers.org.uk) for reviewing the poster
+- The people who attended our focus group helping to shape the poster
 
-This HTML version was developed by: [Craig Abbott](https://twitter.com/abbott567).
+This HTML version of the poster was developed by: [Craig Abbott](https://twitter.com/abbott567).
