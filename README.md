@@ -1,5 +1,14 @@
 # Designing for users with dyscalculia or low numeracy skills
 
+## Get the poster
+
+You can:
+- [View the accessible poster as HTML](https://htmlpreview.github.io/?https://github.com/abbott567/dyscalculia-poster/blob/main/dist/dyscalculia-poster.html).
+- [Download the accessible poster as HTML](https://github.com/abbott567/dyscalculia-poster/raw/main/dist/dyscalculia-poster.zip)
+- [Download the poster as a PDF for print](https://htmlpreview.github.io/?https://github.com/abbott567/dyscalculia-poster/blob/main/dist/index.html).
+
+## About this poster
+
 This poster was made as an addition to the awesome [Home Office Accessibility posters](https://ukhomeoffice.github.io/accessibility-posters/posters/accessibility-posters.pdf).
 
 This work is an adaptation based on the following conditions:
