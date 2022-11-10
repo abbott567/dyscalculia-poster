@@ -1,0 +1,27 @@
+{% from './macros/list-item.njk' import listItem %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dyscalculia poster</title>
+    <style>
+      {%- include './style.css' -%}
+    </style>
+  </head>
+  <body>
+    <main id="main">
+      
+      {%- include './partials/_header.njk'-%}
+      
+      <div class="row">
+        {%- include './partials/_do.njk' -%}
+        {%- include './partials/_do-not.njk' -%}        
+      </div>
+    </main>
+
+    {%- include './partials/_footer.njk' -%}
+  </body>
+</html>

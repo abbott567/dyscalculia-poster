@@ -1,0 +1,28 @@
+@use './mixins' as *;
+
+main {
+  ul {
+    padding-left: 0;
+    margin: 0;
+    li {
+      @include flex;
+      gap: 2rem;
+      list-style: none;
+      height: 8rem;
+      padding: 1rem;
+    }
+    li:nth-of-type(odd) {
+      background-color: var(--row-light);
+    }
+    li:nth-of-type(even) {
+      background-color: var(--row-dark);
+    }
+  }
+}
+
+footer {
+  ul {
+    margin-top: 0;
+    padding-left: 1rem;
+  }
+}

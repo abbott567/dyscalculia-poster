@@ -1,0 +1,12 @@
+{%- macro listItem(params) -%}
+<li>
+  <p>
+    <span class="visually-hidden">{{params.verb}} </span>{{params.content}}
+  </p>
+  {%- if params.svg -%}
+    <figure>
+      {%- include '../svg/' + params.svg -%}
+    </figure>
+  {%- endif -%}
+</li>
+{%- endmacro -%}

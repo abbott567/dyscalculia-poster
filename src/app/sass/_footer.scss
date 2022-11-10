@@ -1,0 +1,18 @@
+.footer {
+  padding: 20px 0;
+  font-size: .75rem;
+  &__logo {
+    margin-bottom: 20px;
+  }
+  &__logo--dwp {
+    max-width: 50px;
+  }
+  &__logo--ccdd {
+    max-width: 200px;
+    margin-left: 2rem;
+    @media (max-width: 599px) {
+      display: block;
+      margin-left: 0;
+    }
+  }
+}

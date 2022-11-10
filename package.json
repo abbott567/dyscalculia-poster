@@ -1,0 +1,33 @@
+{
+  "name": "dyscalculia-poster",
+  "version": "1.0.0",
+  "author": "Craig Abbott (@abbott567)",
+  "license": "MIT",
+  "description": "DWP / HMRC Dyscalculia poster in HTML.",
+  "scripts": {
+    "start": "npm run prod",
+    "dev": "node src/dev/launch.mjs",
+    "prod": "node src/app/server/start.mjs",
+    "build": "node src/build/all.mjs"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "browser-sync": "^2.27.10",
+    "colors": "^1.4.0",
+    "fs-jetpack": "^5.1.0",
+    "highlight.js": "^11.6.0",
+    "html-minifier": "^4.0.0",
+    "node-watch": "^0.7.3",
+    "nodemon": "^2.0.20",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.56.0",
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.18.2",
+    "nunjucks": "^3.2.3"
+  }
+}

@@ -1,0 +1,35 @@
+@use './mixins' as *;
+@use 'normalise';
+@use 'colours';
+@use 'utilities';
+@use 'main';
+@use 'body';
+@use 'headings';
+@use 'lists';
+@use 'figure';
+@use 'header';
+@use 'footer';
+
+a {
+  color: var(--link-colour);
+}
+
+.row {
+  padding-top: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  background-color: var(--border-colour);
+  @media (max-width: 599px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.col-header {
+  @include flex;
+  background-color: var(--row-dark);
+  list-style: none;
+  min-height: 8rem;
+  padding: 1rem;
+}

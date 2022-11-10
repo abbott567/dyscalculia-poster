@@ -1,0 +1,75 @@
+// Define Colours
+$light-blue:    #35A1DA;
+
+$off-white:     #FAF9F6;
+$matte-black:   #28282B;
+
+$light-purple:  #ece8f3;
+$mid-purple:    #d9cfea;
+$dark-purple:   #725aa2;
+
+$orange:        #c4532c;
+$brass:         #bd9e5f;
+
+$dwp-teal:      #00bab6;
+$hmrc-green:    #0b938d;
+
+// Set CSS Variables
+:root {
+  --page-colour: #{$off-white};
+  --text-colour-primary: #{$matte-black};
+  --border-colour: #{$light-blue};
+  --row-light: #{$light-purple};
+  --row-dark: #{$mid-purple};
+  --link-colour: #{$dark-purple};
+
+  --do-icon-colour-primary: #{$dark-purple};
+  --do-icon-colour-secondary: #{$light-purple};
+  --do-icon-colour-highlight: #{$off-white};
+
+  --do-not-icon-colour-primary: #{$orange};
+  --do-not-icon-colour-secondary: #{$light-purple};
+  --do-not-icon-colour-tertiary: #{$brass};
+  --do-not-icon-colour-highlight: #{$off-white};
+  
+  --hmrc-logo-colour-text: #{$matte-black};
+  --hmrc-logo-colour-highlight: #{$hmrc-green};
+
+  --dwp-logo-colour-text: white;
+  --dwp-logo-colour-highlight: #{$dwp-teal};
+}
+
+// Icon colours
+.do-icon-colour-primary { fill: var(--do-icon-colour-primary); }
+.do-icon-colour-secondary { fill: var(--do-icon-colour-secondary); }
+.do-icon-colour-highlight { fill: var(--do-icon-colour-highlight); }
+
+.do-not-icon-colour-primary { fill: var(--do-not-icon-colour-primary); }
+.do-not-icon-colour-secondary { fill: var(--do-not-icon-colour-secondary); }
+.do-not-icon-colour-tertiary { fill: var(--do-not-icon-colour-tertiary); }
+.do-not-icon-colour-highlight { fill: var(--do-not-icon-colour-highlight); }
+
+.dwp-logo-colour-highlight { fill: var(--dwp-logo-colour-highlight) }
+.dwp-logo-colour-text { fill: var(--dwp-logo-colour-text) }
+
+.hmrc-logo-colour-highlight { fill: var(--hmrc-logo-colour-highlight) }
+.hmrc-logo-colour-text { fill: var(--hmrc-logo-colour-text) }
+
+.cc-dd-logo-colour-00{ fill:#2A8A83; }
+.cc-dd-logo-colour-01{ fill:#2B8B83; }
+.cc-dd-logo-colour-02{ fill:#636362; }
+.cc-dd-logo-colour-03{ fill:#656564; }
+.cc-dd-logo-colour-04{ fill:#646463; }
+.cc-dd-logo-colour-05{ fill:#626261; }
+.cc-dd-logo-colour-06{ fill:#666665; }
+.cc-dd-logo-colour-07{ fill:#278A83; }
+.cc-dd-logo-colour-08{ fill:#308C85; }
+.cc-dd-logo-colour-09{ fill:#339FD4; }
+.cc-dd-logo-colour-10{ fill:#2C8A82; }
+.cc-dd-logo-colour-11{ fill:#BCBA35; }
+.cc-dd-logo-colour-12{ fill:#EA645B; }
+.cc-dd-logo-colour-13{ fill:#4CC0BA; }
+.cc-dd-logo-colour-14{ fill:#D34C43; }
+.cc-dd-logo-colour-15{ fill:#89BDAF; }
+.cc-dd-logo-colour-16{ fill:#4E968F; }
+.cc-dd-logo-colour-17{ fill:#D57E7E; }

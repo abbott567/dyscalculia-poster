@@ -1,0 +1,15 @@
+figure {
+  display: block;
+  margin: 0;
+  display: inline-block;
+  max-width: 80px;
+  @media (max-width: 809px) {
+    max-width: 60px;
+  }
+  svg {
+    width: 100%;
+  }
+  .evenodd {
+    fill-rule: evenodd;
+  }
+}

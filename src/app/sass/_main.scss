@@ -1,0 +1,8 @@
+
+main {
+  background-color: var(--row-dark);
+  padding: 2rem;
+  @media (max-width: 809px) {
+    padding: 0;
+  }
+}
