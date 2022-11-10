@@ -8,9 +8,10 @@
     "start": "npm run prod",
     "dev": "node src/dev/launch.mjs",
     "prod": "node src/app/server/start.mjs",
-    "build": "node src/build/all.mjs"
+    "build": "node src/build/all.mjs --exit"
   },
   "devDependencies": {
+    "archiver": "^5.3.1",
     "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
     "babel-loader": "^9.1.0",

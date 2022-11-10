@@ -16,7 +16,7 @@ function buildHTML () {
     removeEmptyAttributes: true,
     minifyCSS: true
   })
-  fs.write('dist/index.html', html)
+  fs.write('dist/dyscalculia-poster.html', html)
   console.log(colours.cyan('HTML minified'))
 }
 

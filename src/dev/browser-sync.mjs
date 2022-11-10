@@ -7,11 +7,7 @@ function alertReload () {
 
 function runBrowserSync () {
   const bs = browserSync.create()
-  bs.watch('src/app/views/**/*.njk').on('change', () => {
-    bs.reload()
-    alertReload()
-  })
-  bs.watch('dist/**/*.html').on('change', () => {
+  bs.watch('dist/dyscalculia-poster.html').on('change', () => {
     bs.reload()
     alertReload()
   })

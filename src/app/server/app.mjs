@@ -13,7 +13,7 @@ nunjucks.setup(app)
 
 // Use router
 app.get('/', (req, res) => {
-  const template = path.resolve('src/app/views/index.html')
+  const template = path.resolve('dist/dyscalculia-poster.html')
   res.sendFile(template)
 })
 
