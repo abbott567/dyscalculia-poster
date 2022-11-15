@@ -59,7 +59,7 @@ If they must enter a number, let them paste it in or give them a recognisable fo
 
 ## Credits
 This poster was designed and created by:
-- [Jayne McFayden](https://twitter.com/mcfadyen_jane)
+- [Jayne McFadyen](https://twitter.com/mcfadyen_jane)
 - [Laura Parker](https://twitter.com/LauraParkerUX)
 - [Rachel Malic](https://twitter.com/GirlCalledMalic)
       
