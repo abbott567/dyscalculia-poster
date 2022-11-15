@@ -3,8 +3,8 @@ import buildHTML from './html.mjs'
 import buildZip from './zip.mjs'
 
 async function runBuild () {
-  buildSass()
-  buildHTML()
+  await buildSass()
+  await buildHTML()
   await buildZip()
   process.exit()
 }
