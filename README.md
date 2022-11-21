@@ -1,4 +1,4 @@
-# Designing for users with dyscalculia or low numeracy skills
+# Designing for users with dyscalculia or low numeracy
 
 ## Get the poster
 
