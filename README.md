@@ -7,6 +7,9 @@ You can:
 - [Download the accessible poster as HTML](https://github.com/abbott567/dyscalculia-poster/raw/main/dist/dyscalculia-poster.zip)
 - [Download the poster as a PDF for print](https://github.com/abbott567/dyscalculia-poster/blob/main/dist/dyscalculia-poster.pdf)
 
+The PDF version of the poster is also available in other languages:
+• [German (de-DE)](https://github.com/martin-jordan/dyscalculia-poster/blob/main/dist/dyscalculia-poster-DE.pdf)
+
 ## About this poster
 
 This poster was made as an addition to the awesome [Home Office Accessibility posters](https://ukhomeoffice.github.io/accessibility-posters/posters/accessibility-posters.pdf).
